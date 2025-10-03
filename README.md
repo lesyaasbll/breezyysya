@@ -26,4 +26,4 @@ The project is designed to highlight my skills, projects, and provide contact in
 - JavaScript – Interactivity  
 
 ## Preview
-- ![Website Preview](link_to_screenshot.png)
+- ![Website Preview](C:\Users\Lesya Salsabilla P\github\breezyysya\assets\Screenshot (94).png)
