@@ -23,7 +23,8 @@ The project is designed to highlight my skills, projects, and provide contact in
 ## Technologies Used
 - HTML – Page structure  
 - CSS – Styling & responsive design  
-- JavaScript – Interactivity  
+- JavaScript – Interactivity 
 
 ## Preview
-- ![Website Preview](C:\Users\Lesya Salsabilla P\github\breezyysya\assets\Screenshot (94).png)
+### Home Page
+![Home Preview].(./assets/home.png)
