@@ -21,10 +21,10 @@ The project is designed to highlight my skills, projects, and provide contact in
 - Contact – Contact form
 
 ## Technologies Used
-- HTML – Page structure  
+- HTML – Page structure 
 - CSS – Styling & responsive design  
 - JavaScript – Interactivity 
 
 ## Preview
 ### Home Page
-![Home Preview].(./assets/home.png)
+![Home Preview](./assets/home.png)
