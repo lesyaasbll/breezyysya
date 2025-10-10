@@ -1,0 +1,212 @@
+<!DOCTYPE html>  
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer"/>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top left, #0f172a, #0c111d);
+      color: #fff;
+    }
+
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    header .brand {
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    /* Hero section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 60px 100px;
+    }
+
+    .hero-text {
+      flex: 1 1 400px;
+      min-width: 300px;
+    }
+
+    .hero-text h3 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin: 10px 0;
+    }
+
+    .hero-text h2 {
+      font-size: 24px;
+      margin: 0 0 20px;
+      font-weight: 500;
+    }
+
+    .hero-text p {
+      line-height: 1.7;
+      max-width: 500px;
+      margin-bottom: 30px;
+      color: #d1d5db;
+    }
+
+    .socials a {
+      color: #38bdf8;
+      font-size: 24px;
+      margin-right: 14px;
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+
+    .socials a:hover {
+      transform: scale(1.1);
+    }
+
+    .btn {
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      font-weight: 600;
+      margin-top: 25px;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+      color: #fff;
+    }
+
+    /* Foto */
+    .hero-image {
+      flex: 1 1 300px;
+      text-align: right;
+      padding-right: 60px;
+      opacity: 0;
+      transform: translateX(50px);
+      animation: fadeInRight 1.2s ease-out forwards;
+      animation-delay: 0.3s;
+    }
+
+    .hero-image img {
+      width: 450px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      .hero-text p {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-image {
+        padding-right: 0;
+        margin-top: 40px;
+        animation: fadeInUp 1.2s ease-out forwards;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <a href="#" class="brand">My Portfolio</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h3>Hello, It's Me</h3>
+      <h1>Lesya Salsabilla Putri</h1>
+      <h2>And I’m a <span style="color:#38bdf8;">Information System Student</span></h2>
+      <p>Curious learner who enjoys exploring tech, sharing ideas, and creating something meaningful with technology.</p>
+
+      <!-- Sosial Media -->
+      <div class="socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/lesya.png" alt="Lesya Salsabilla Putri">
+    </div>
+
+  </section>
+</body>
+</html>
