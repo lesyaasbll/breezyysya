@@ -16,7 +16,6 @@
       color: #fff;
     }
 
-    /* Navbar */
     header {
       display: flex;
       justify-content: space-between;
@@ -43,7 +42,6 @@
       color: #38bdf8;
     }
 
-    /* About Section */
     .about {
       max-width: 1200px;
       margin: auto;
@@ -118,6 +116,26 @@
       color: #fff;
     }
 
+    footer {
+      text-align: center;
+      padding: 25px 10px;
+      background: #0c111d;
+      color: #94a3b8;
+      border-top: 1px solid #1e293b;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin: 0 8px;
+      transition: color 0.2s;
+    }
+
+    footer a:hover {
+      color: #0ea5e9;
+    }
+
     @media (max-width: 900px) {
       .about {
         flex-direction: column;
@@ -128,19 +146,17 @@
 </head>
 
 <body>
-  <!-- Navbar -->
   <header>
     <a href="index.html" class="brand">My Portfolio</a>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html" class="active">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <!-- About -->
   <section class="about">
     <div class="about-img">
       <img src="assets/caca.png" alt="Lesya Salsabilla Putri">
@@ -153,5 +169,9 @@
       <a href="https://www.linkedin.com/in/lesya-salsabilla-putri-6b21832b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn">See More</a>
     </div>
   </section>
+  <footer>
+    <p>© 2025 Lesya Salsabilla Putri | All Rights Reserved</p>
+    </p>
+  </footer>
 </body>
 </html>
