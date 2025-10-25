@@ -37,6 +37,7 @@ nav a:hover {
   align-items: center;
   justify-content: space-between;
   max-width: 1200px;
+  padding: 400px 0;
   margin: auto;
   padding: 60px 60px 100px;
 }
@@ -100,9 +101,11 @@ nav a:hover {
 }
 
 .hero-image {
+  display: flex;
+  flex-direction: row-reverse;
   flex: 1 1 300px;
   text-align: right;
-  padding-right: 60px;
+  padding-right: 100px;
   opacity: 0;
   transform: translateX(50px);
   animation: fadeInRight 1.2s ease-out forwards;
@@ -112,6 +115,9 @@ nav a:hover {
 .hero-image img {
   width: 450px;
   height: auto;
+  text-align: right;
+  object-fit: cover;
+  padding-left: 100px;
   border-radius: 50%;
 }
 
@@ -152,6 +158,21 @@ nav a:hover {
       opacity: 1;
       transform: translateY(0);
     }
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px;
+  }
+
+  .projects-section {
+    padding: 60px 20px;
   }
 }
 

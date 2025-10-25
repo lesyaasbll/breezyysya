@@ -126,8 +126,16 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
-  .about {
+  header {
     flex-direction: column;
     text-align: center;
+  }
+
+  nav a {
+    margin: 10px;
+  }
+
+  .projects-section {
+    padding: 60px 20px;
   }
 }
