@@ -104,7 +104,7 @@ nav a:hover {
   display: flex;
   flex-direction: row-reverse;
   flex: 1 1 300px;
-  text-align: right;
+  text-align: center;
   padding-right: 100px;
   opacity: 0;
   transform: translateX(50px);
