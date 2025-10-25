@@ -161,21 +161,6 @@ nav a:hover {
   }
 }
 
-@media (max-width: 900px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  nav a {
-    margin: 10px;
-  }
-
-  .projects-section {
-    padding: 60px 20px;
-  }
-}
-
 footer {
   text-align: center;
   padding: 25px 10px;
@@ -194,4 +179,19 @@ footer a {
 
 footer a:hover {
   color: #0ea5e9;
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px;
+  }
+
+  .projects-section {
+    padding: 60px 20px;
+  }
 }
